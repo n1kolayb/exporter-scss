@@ -12,6 +12,7 @@
     "js": "src/js/helpers.js"
   },
   "usesBrands": true,
+  "usesThemes": true,
   "engines": {
     "pulsar": "1.0.0",
     "supernova": "1.0.0"
