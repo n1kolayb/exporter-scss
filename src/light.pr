@@ -7,7 +7,7 @@ and their value rendered using `rendered-color` blueprint
 *}
 {[ let brand = ds.currentBrand() /]}
 {[ let theme = ds.themeById("dark") /]}
-{[ for token in ds.tokensByApplyingThemes(theme.id) ]}
+{[ for token in ds.tokensByApplyingThemes(theme) ]}
 {[ inject "rendered-token-var" context token /]}
     
 
